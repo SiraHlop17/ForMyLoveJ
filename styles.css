@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #ffe6e6, #ffd0d0);
+    color: #ff4d4d;
+    line-height: 2;
+    padding: 15px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #ff3b3b;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+section {
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #ff3b3b;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#carta-amor p {
+    text-align: center;
+    font-size: 15px;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff5f5;
+    border-radius: 15px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+#razones ul {
+    list-style: none;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+#razones li {
+    font-size: 1rem;
+    background-color: #fff5f5;
+    color: #555;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 15px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+#razones li:hover {
+    transform: scale(1.02);
+}
+
+#cuenta-regresiva {
+    text-align: center;
+}
+
+#cuenta-regresiva p {
+    font-size: 2rem;
+}
+
+#countdown span {
+    font-size: 2.1rem;
+    color: #ff3b3b;
+    font-weight: bold;
+}
+
+#musica {
+    text-align: start;
+    margin: 0;
+}
+
+#musicButton {
+    width: 50px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #ff3b3b;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#musicButton:hover {
+    background-color: #cc2e2e;
+}
+
+#liveAlertPlaceholder {
+    position: relative;
+    margin: 50px 20px;
+    height: 20px;
+}
+
+.btn {
+    padding: 10px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    margin: 20px auto; /* Ajustado para centrar con auto */
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    display: inline-block; /* Asegura que el botón se comporte como un bloque en línea */
+}
+
+.btn-primary {
+    background-color: #ff8c8c;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #ec5252;
+}
+
+.alert {
+    width: 200px;
+    padding: 10px;
+    border-radius: 15px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 200px;
+    opacity: 1;
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.alert-success {
+    background-color: #ff9999;
+    color: #ffffff;
+    font-size: 15px;
+}
+
